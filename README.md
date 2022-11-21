@@ -17,7 +17,7 @@ mysql --user=root --password=root
 - Излизаме оттук с командата Cntrl + C
 - Отново се логваме, само че този път в новосъздадената sakila
 ```
-mysql --user=root --password=root
+mysql --user=root --password=root sakila
 ```
 - Изпълняваме скрипта sakila-schema.sql, който създава схемата + някои допълнителни неща за sakila. Тук е важно да заменим %*PROJ_DIR*% с реалното място на проекта, който сме свалили от github.com
 ```
