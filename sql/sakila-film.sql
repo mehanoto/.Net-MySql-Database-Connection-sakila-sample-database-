@@ -5,8 +5,7 @@ CREATE TABLE film_text (
   film_id SMALLINT NOT NULL,
   title VARCHAR(255) NOT NULL,
   description TEXT,
-  PRIMARY KEY  (film_id),
-  FULLTEXT KEY idx_title_description (title,description)
+  PRIMARY KEY  (film_id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO film VALUES (1,'ACADEMY DINOSAUR','A Epic Drama of a Feminist And a Mad Scientist who must Battle a Teacher in The Canadian Rockies',2006,1,NULL,6,'0.99',86,'20.99','PG','Deleted Scenes,Behind the Scenes','2006-02-15 05:03:42'),
